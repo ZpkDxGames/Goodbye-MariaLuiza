@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Message Content - EDIT HERE
-    const messageText = "Não tenho palavras para expressar o quanto você significa para mim. O caminho que nossa amizade trilhou é repleto de momentos inesquecíveis, risadas compartilhadas e apoio incondicional. Você é uma pessoa incrível, sua presença ilumina a vida daqueles ao seu redor. Que este dia especial seja apenas o começo de um novo ciclo, ciclo esse cheio de felicidade, sucesso e realizações.";
+    const messageText = "Não tenho palavras para expressar o quanto você significa para mim. O caminho que nossa amizade trilhou é repleto de momentos inesquecíveis, risadas compartilhadas e apoio incondicional. Você é uma pessoa incrível, sua presença ilumina a vida daqueles ao seu redor.";
     
     const typingElement = document.getElementById('typing-text');
     const typingSpeed = 35; // ms per character
@@ -59,3 +59,4 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(typeWriter, 1000);
     }
 });
+
