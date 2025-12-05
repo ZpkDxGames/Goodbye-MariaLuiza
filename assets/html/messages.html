@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Especial</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="vignette-overlay" class="vignette-active"></div>
+    
+    <header>
+        <button class="icon-btn" id="back-btn" onclick="window.location.href='hub.html'">
+            <img src="../media/icons/arrow-left.svg" alt="Back" class="icon-svg">
+        </button>
+    </header>
+
+    <main class="message-page">
+        <div class="message-card">
+            <div class="message-content">
+                <h1 class="message-title">Mensagem</h1>
+                <div class="message-body">
+                    <p id="typing-text"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/animations/confetti.js"></script>
+    <script src="../js/messages.js"></script>
+</body>
+</html>

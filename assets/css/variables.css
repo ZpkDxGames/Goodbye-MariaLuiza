@@ -1,0 +1,40 @@
+:root {
+    /* Theme Colors - Dark Mode Default */
+    /* Palette: Verde claro, Amarelo, Rosa claro, Laranja */
+    --color-green-light: #69F0AE;
+    --color-yellow: #FFD740;
+    --color-pink-light: #FF80AB;
+    --color-orange: #FFAB40;
+
+    --primary-color: var(--color-orange);
+    --secondary-color: var(--color-green-light);
+    --accent-color: var(--color-pink-light);
+    --highlight-color: var(--color-yellow);
+    
+    /* Dark Theme Palette */
+    --background-color: #000000; /* Black */
+    --surface-color: #111111; /* Slightly lighter, tinted */
+    --surface-hover: #222222;
+    
+    --text-color: #f5f6fa;
+    --text-light: #b2bec3;
+    
+    /* UI Elements */
+    --sidebar-width: 280px;
+    --header-height: 60px;
+    --border-radius: 16px;
+    
+    /* Animations */
+    --transition-speed: 0.4s;
+    --splash-duration: 8s;
+}
+
+/* Dark Mode Support (Optional, but good for structure) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000000;
+        --surface-color: #111111;
+        --text-color: #f5f6fa;
+        --text-light: #b2bec3;
+    }
+}
